@@ -1,5 +1,5 @@
 context:
-  version: "1.0.0beta.8"
+  version: "1.0.0beta.9"
   tag: ${{ version | replace("beta", "-beta") }}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://github.com/rustfs/rustfs/archive/refs/tags/${{ tag }}.tar.gz
-  sha256: 142dc2c676549cc1a35ec2f7c98d5b35d671d127734d242e7e62ac261961a141
+  sha256: 96adfe308111de5fcb980b3f5ed32869c38e90b3cf611a51599f0891d405e1cd
 
 build:
   number: 0
